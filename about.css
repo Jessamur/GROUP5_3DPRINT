@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: rgb(226, 93, 93);
+}
+
+h2{
+    font-family: 'Righteous' cursive; 
+    color: black;
+    font-size: 250%;
+    font-weight: 20px;
+    text-decoration: underline;
+}
+
+img {
+    float: right;
+    border: solid black 10px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 150px;
+    text-align: justify;
+    padding-right: 10px;
+
+}
