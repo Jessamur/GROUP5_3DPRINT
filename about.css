@@ -1,15 +1,30 @@
 
 
 body {
-    background-color:  rgb(104, 232, 219);
+    background: url(/bg.jpg);
+    background-size: cover;
+    
+    backdrop-filter: blur(7px);
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    
 }
-
+header{
+    background-color: rgba(5, 5, 5, 0.397);
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 50px; 
+    
+  }
 h2{
-    font-family: 'Righteous', cursive; 
-    color: black;
-    font-size: 200%;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
     font-weight: 10px;
-    text-decoration: underline;
+    text-shadow: 2px 3px 4px black;
     text-align: center;
 }
 .images {
@@ -17,11 +32,12 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.274);
     width: 1440px;
     height: 400px;
     padding: 0 75px;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
     
     
     
@@ -31,35 +47,49 @@ h2{
     width: 450px;
     height: 350px;
     padding: 15px;
+    box-shadow: 0px 0px 4px rgb(255, 131, 29);
     
 }
 
 h4 {
     font-family: 'Righteous', cursive; 
-    color: black;
-    font-size: 150%;
-    font-weight: 5px;
-    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px black;
+    font-size: 2rem;
+    padding-left: 150px;
     padding-bottom: 0;
+    background-color: #00000096;
 
 }
 
 #intro {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Noto Sans JP', sans-serif;
     font-size: 22px;
     font-weight: 150px;
-    text-align: justify;
-    background-color: white;
-    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-left: 40px;
-    border: black solid 3px;
+    border-top: rgb(255, 255, 255) solid 2px;
+    border-left: rgb(255, 255, 255) solid 2px;
+    border-right: #E07D08 solid 2px;
+    border-bottom: #E07D08 solid 2px;
     width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);  
+    text-shadow: none;
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 21px;
     font-weight: 150px;
-    text-align: left;  
+    text-align: left;
+    padding-left: 30px;
+    text-shadow: 1px 2px 3px black;
+    word-spacing: 3px;
 }
 
