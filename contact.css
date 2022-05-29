@@ -42,8 +42,8 @@ p {
 }
 #contactImg {
     float: left;
-    display: block;
-    margin-right: 150px;
+    display: flex;
+    margin-right: 0;
     border-radius: 10px;
     border-bottom: #ffffff 1px solid;
     border-right: #ffffff 1px solid;
@@ -51,7 +51,7 @@ p {
     border-left: #ffffff 1px solid;
     position: relative;
     transition: ease-out .5s;
-    transform: scale(.8) translateY(-20px);
+    transform: scale(.8) translateY(-20px);  
 }
 #contactImg:hover{
     transform: scale(.9) ;
@@ -68,11 +68,12 @@ p {
 form {
     font-size: 20px;
     font-weight: bold;
-    padding-left:75px;
-   position: relative;
-   bottom: 40px;
-   font-family: 'Noto Sans JP', sans-serif;
-  
+    padding-right:100px;
+    margin-left: 0;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    float: right;
 }
 label{
     background-color: rgba(0, 0, 0, 0.432);
@@ -150,5 +151,24 @@ header{
 ::-webkit-scrollbar-thumb {
     background: #ffffff;
     border-radius: 50px; 
-    
   }
+@media screen and (max-width:1700px) {
+    
+    #contactImg{
+            width: 700px;
+        }
+    @media screen and (max-width:1450px){
+        #contactImg{
+            width: 600px;
+        }
+    }
+    @media screen and (max-width:1400px){
+        #contactImg{
+            display:none;
+        }
+        form{
+            float:none;
+            margin-left: 28%;
+        }
+    }
+}
