@@ -114,4 +114,36 @@ h4 {
      text-shadow: none;
  }
 
+
+ .bigbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.littlebox {
+    margin: 100px;
+    padding: 10px;
+    width: 1000px;
+    border-top: rgb(255, 255, 255) solid 2px;
+    border-left: rgb(255, 255, 255) solid 2px;
+    border-right: #E07D08 solid 2px;
+    border-bottom: #E07D08 solid 2px;
+    width: 1440px;
+}
+
+.littleboxalt {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.disappear {
+    width: 1440px;
+
+
+}
+
  
