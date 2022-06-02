@@ -21,15 +21,23 @@
 <body>
   <header><nav>
     <div class="logo"><a href="index.html"><img src="resin4.png" alt=""></a></div>
-    <div class="navLinks"><ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="/about.html">ABOUT</a></li>
-        <li><a href="/gallery.html">GALLERY</a></li>
-        <li><a href="/services.html">SERVICES</a></li>
-        <li><a href="/contact.html">CONTACT</a></li>
+    <div ><ul>
+        <li class="navLinks"><a href="index.html">HOME</a></li>
+        <li class="navLinks"><a href="/about.html">ABOUT</a></li>
+        <li class="navLinks"><a href="/gallery.html">GALLERY</a></li>
+        <li class="navLinks"><a href="/services.html">SERVICES</a></li>
+        <li class="navLinks"><a href="/contact.html">CONTACT</a></li>
+        <li id="menuBtn"><a href="#" id="mIcon" onclick='document.getElementById("menuLinks").style.display = "block"'>☰</a>
+            <ol id="menuLinks">
+            <li style="cursor:pointer;" onclick="location.href='/about.html'">ABOUT</li>
+            <li style="cursor:pointer;" onclick="location.href='/gallery.html'">GALLERY</li>
+            <li style="cursor:pointer;" onclick="location.href='/services.html'">SERVICES</li>
+            <li style="cursor:pointer;" onclick="location.href='/contact.html'">CONTACT</li>
+        </ol></li>
+        
         
        
-    </div></ul>
+    </ul></div>
     
 </nav></header>
 <h2>ABOUT US</h2>
