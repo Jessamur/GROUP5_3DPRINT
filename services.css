@@ -118,7 +118,7 @@ h4 {
  .bigbox {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     border-top: rgb(255, 255, 255) solid 2px;
     border-left: rgb(255, 255, 255) solid 2px;
@@ -137,9 +137,6 @@ h4 {
     
 }
 
-.pindent {
-    text-indent:10%;
-}
 
 
 
