@@ -125,7 +125,9 @@ h4 {
     border-right: #E07D08 solid 2px;
     border-bottom: #E07D08 solid 2px;
     width: 1440px;
-    margin: 100px;
+    margin-left: 175px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -150,6 +152,10 @@ button {
     margin-left: 100px;
   }
 
+.divspace {
+    height: 75px;
 
+
+}
 
  
