@@ -105,7 +105,7 @@
     #hero h1 {
         position: relative;
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         /*color: var(--white);*/
     }
 
@@ -133,7 +133,7 @@
 
     #hero p {
         position: relative;
-        margin: auto 8vw 25px;
+        margin: auto 8vw 50px;
         text-align: center;
     }
 
