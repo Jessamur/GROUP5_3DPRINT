@@ -118,32 +118,29 @@ h4 {
  .bigbox {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-
-.littlebox {
-    margin: 100px;
-    padding: 10px;
-    width: 1000px;
     border-top: rgb(255, 255, 255) solid 2px;
     border-left: rgb(255, 255, 255) solid 2px;
     border-right: #E07D08 solid 2px;
     border-bottom: #E07D08 solid 2px;
     width: 1440px;
+    margin: 100px;
+    
 }
 
-.littleboxalt {
-    margin: 10px;
+
+.littlebox {
+    margin: 25px;
     padding: 10px;
-    width: 300px;
+    width: 650px;
+    
 }
 
-.disappear {
-    width: 1440px;
-
-
+.pindent {
+    text-indent:10%;
 }
+
+
 
  
