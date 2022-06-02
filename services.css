@@ -9,7 +9,7 @@ h2{
 }
 
 body {
-    background: url(./bg.jpg);
+    background: url(bg.jpg);
     background-size: cover;
     
     backdrop-filter: blur(7px);
