@@ -169,6 +169,17 @@ header{
         form{
             float:none;
             margin-left: 28%;
+            transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+        }
+    }
+    @media screen and (max-width:1100px){
+        #contactImg{
+            display:none;
+        }
+        form{
+            float:none;
+            margin-left: 20vw;
+            transition: linear .1s;
         }
     }
 }
