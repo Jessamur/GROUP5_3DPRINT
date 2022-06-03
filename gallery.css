@@ -59,7 +59,7 @@
     body {
         margin: 0;
         background-color: #202020;
-        background: url(bg.jpg);
+        background: url(bg-lg.jpg);
         background-size: cover;
         backdrop-filter: blur(0.8px);
         color: white;
