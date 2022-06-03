@@ -371,6 +371,15 @@
         /*-webkit-transition: opacity 1000ms linear;
         transition: opacity 1000ms linear;* /
     }*/
+
+    .lg-brace {
+        display: none;
+    }
+
+    .lg-contemplate {
+        display: none;
+    }
+
 }
 
 /*  iPhone Plus */
@@ -662,6 +671,22 @@
 
     .navigation-visibility .slide-icon {
         transform: translateY(-5vh)/*translateY(-50px)*/;
+    }
+
+    .lg-contemplate {
+        display: block !important;
+    }
+
+    .mobile-contemplate {
+        display: none;
+    }
+
+    .lg-brace {
+        display: block !important;
+    }
+
+    .mobile-brace {
+        display: none;
     }
 
 }
