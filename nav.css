@@ -96,6 +96,13 @@ html{
     position: relative;
     display: none;
 }
+
+
+.active {
+    display: block !important;
+}
+
+
 #mIcon:hover{
     transform: none;
     font-size: 1.8rem;
@@ -121,6 +128,7 @@ html{
     text-align: left;
     line-height: 3rem;
     
+    display: none;
 
 }
 ol li{
