@@ -57,7 +57,17 @@ h4 {
      color: rgb(255, 255, 255);  
      text-shadow: none;
  }
- 
+ .linkHover{
+    text-decoration:none;
+    color:#E07D08;
+    transition: ease-out .3s;
+ }
+ .linkHover:hover{
+    font-size: 26px;
+    color:#9b5601;
+    transition:ease .6s;
+ }
+
  p {
      font-family: 'Noto Sans JP', sans-serif;
      font-size: 21px;
@@ -136,7 +146,7 @@ h4 {
     margin: 25px;
     padding: 10px;
     width: 650px;
-    
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 

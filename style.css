@@ -28,49 +28,70 @@ h1{
 #homeImg{
     text-align: center;
     padding:175px;
+    font-size: 1.5em;
 }
 .midpage{
     width: 100%;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.884);
     border-top: rgb(252, 145, 45) 1px solid;
-  
+    font-size: 1.2em;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content:center ;
+}
+.midpage p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.midpage a:hover{
+    transform: scale(2.1);
 }
 .lowerBody{
     background-color: #e7872096;
     width: 100%;
-    height: 300px;
+    height: 400px;
     display: grid;
     grid-template-columns: 300px 300px 300px ;
     justify-content: space-around;
     
     
 }
+.lowerBody img:hover{
+    cursor: pointer;
+    transform: scale(1.3,1);
+    transition: ease .3s;
+}
 .lowerContain1{
-    background-color: rgba(0, 0, 0, 0.973);
+    transition: ease-out .6s;
    order: 1;
    text-align: center;
-   padding-top:125px;
-   transform: scale(.85);
-    
+   transform: scale(1.1,.85);
+   background-size:cover;
+   margin-top:auto;
+   margin-bottom: auto;
+    border: solid 2px white;
 }
 .lowerContain2{
-    background-color: rgba(0, 0, 0, 0.973);
+    transition: ease-out .6s;
    order: 0;
    text-align: center;
-   padding-top:125px;
+   border: solid 2px white;
    transform: scale(1.1,.85);
+   margin-top:auto;
+   margin-bottom: auto;
 }
 .lowerContain3{
-    background-color: rgba(0, 0, 0, 0.973);
+    border: solid 2px white;
+    transition: ease-out .6s;
    order: 2;
    text-align: center;
-   padding-top:125px;
    transform: scale(1.1,.85);
+   object-fit: cover;
+   margin-top:auto;
+   margin-bottom: auto;
 }
 ::-webkit-scrollbar-thumb {
     background: #B87620;
