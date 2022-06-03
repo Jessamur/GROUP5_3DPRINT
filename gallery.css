@@ -57,13 +57,13 @@
 @media only screen and (min-width: 30em) {
 
     body {
-        /*margin: 0;
-        background-color: #202020;*/
-        background: url(bg.jpg);/*
+        margin: 0;
+        background-color: #202020;
+        background: url(bg-lg.jpg);
         background-size: cover;
         backdrop-filter: blur(0.8px);
         color: white;
-        font-family: 'Noto Sans JP', sans-serif;*/
+        font-family: 'Noto Sans JP', sans-serif;
     }
 }
 
