@@ -6,7 +6,7 @@
     
         margin: 0;
         background-color: #202020;
-        background: url(bg.jpg);
+        background: url(bg-mobile.jpg);
         background-size: cover;
         backdrop-filter: blur(0.8px);
         color: white;
@@ -51,6 +51,22 @@
         transform: scale(.96) translateY(3px) !important;
     }
 
+}
+
+/*  Larger Background  */
+@media only screen and (min-width: 30em) {
+
+    body {
+        margin: 0;
+    
+        margin: 0;
+        background-color: #202020;
+        background: url(bg.jpg);
+        background-size: cover;
+        backdrop-filter: blur(0.8px);
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
 }
 
 /*-- -------------------------- -->
@@ -372,11 +388,7 @@
         transition: opacity 1000ms linear;* /
     }*/
 
-    .lg-brace {
-        display: none;
-    }
-
-    .lg-contemplate {
+    .lg-slide {
         display: none;
     }
 
@@ -673,19 +685,11 @@
         transform: translateY(-5vh)/*translateY(-50px)*/;
     }
 
-    .lg-contemplate {
+    .lg-slide {
         display: block !important;
     }
 
-    .mobile-contemplate {
-        display: none;
-    }
-
-    .lg-brace {
-        display: block !important;
-    }
-
-    .mobile-brace {
+    .mobile-slide {
         display: none;
     }
 
