@@ -3,8 +3,6 @@
 
     body {
         margin: 0;
-    
-        margin: 0;
         background-color: #202020;
         background: url(bg-mobile.jpg);
         background-size: cover;
@@ -243,8 +241,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: rgba(27, 26, 26, 0.3);
-        background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(27,26,26,0.3));
+        /*background: rgba(27, 26, 26, 0.3);
+        background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(27,26,26,0.3));*/
         box-sizing: border-box;
     }
 
@@ -697,5 +695,91 @@
 @media screen and (min-width: 1500px) {
 
 
+
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.979);
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    display: grid;
+    /*grid-template-columns: 200px 1fr 200px;*/
+    font-size: 11px;
+    text-align: center;
+
+    grid-template-columns: 20vw 60vw 20vw !important;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 30em/*47.9375em*/) {
+    /*
+    .logo {
+        position: absolute !important;
+        left: 0% !important;
+        transform: scale(0.75) translateY(-5px) translateX(-14vw) !important;
+        z-index: 1;
+    }
+
+    ul {
+        right: 0px;
+        z-index: 2;
+        position: relative;
+    }
+
+    ul.nav-heading {
+        right: 0 !important;
+    }
+
+    ul.nav-heading {
+        right: 0 !important;
+        /*width: 100vw;*/
+        /*overflow: visible;*/
+    /*}
+
+    #menuBtn{
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 15px;
+        z-index: 2;
+        /*transform: translateX(65px);*/
+    /*}*/
+
+    .logo {
+        /*position: absolute !important;
+        left: 0% !important;
+        */transform: scale(0.75) translateY(-5px) translateX(-14vw) !important;*/
+        z-index: 1;
+        margin-right: 0 !important;
+    }
+
+    #menuBtn{
+        position: absolute;
+        display: block;
+        z-index: 2;
+        left: 9vw;
+        /*transform: translateX(65px);*/
+    }
+
+}
+
+@media only screen and (min-width: 0em) and (max-width: 345px/*47.9375em*/) {
+
+    .logo {
+        /*position: absolute !important;
+        left: 0% !important;
+        */transform: scale(0.70) translateY(-5px) translateX(-22vw) !important;*/
+        z-index: 1;
+        margin-right: 0 !important;
+    }
+
+    #menuBtn{
+        position: absolute;
+        display: block;
+        z-index: 2;
+        top: -5px; 
+        left: 12vw;
+        /*transform: translateX(65px);*/
+    }
 
 }
