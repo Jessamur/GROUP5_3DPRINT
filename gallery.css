@@ -745,10 +745,21 @@ footer{
         /*transform: translateX(65px);*/
     /*}*/
 
+    .burger {
+        /*margin: 0 !important;*/
+        position: absolute;
+        right: 30px;
+        top: 3vh;
+    }
+
+    #mIcon {/*
+        height: 36.5px;*/
+    }
+
     .logo {
         /*position: absolute !important;
         left: 0% !important;
-        */transform: scale(0.75) translateY(-5px) translateX(-14vw) !important;*/
+        */transform: scale(0.75) translateY(-5px) translateX(-14vw) !important;
         z-index: 1;
         margin-right: 0 !important;
     }
@@ -768,7 +779,7 @@ footer{
     .logo {
         /*position: absolute !important;
         left: 0% !important;
-        */transform: scale(0.70) translateY(-5px) translateX(-22vw) !important;*/
+        */transform: scale(0.70) translateY(-5px) translateX(-22vw) !important;
         z-index: 1;
         margin-right: 0 !important;
     }
@@ -780,6 +791,13 @@ footer{
         top: -5px; 
         left: 12vw;
         /*transform: translateX(65px);*/
+    }
+
+    .burger {
+        /*margin: 0 !important;*/
+        position: absolute;
+        right: 30px;
+        top: 4.5vh;
     }
 
 }
