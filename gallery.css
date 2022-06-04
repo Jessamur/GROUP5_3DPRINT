@@ -745,13 +745,6 @@ footer{
         /*transform: translateX(65px);*/
     /*}*/
 
-    .burger {
-        /*margin: 0 !important;*/
-        position: absolute;
-        right: 30px;
-        top: 3vh;
-    }
-
     #mIcon {/*
         height: 36.5px;*/
     }
@@ -768,8 +761,15 @@ footer{
         position: absolute;
         display: block;
         z-index: 2;
-        left: 9vw;
+        left: 9vw !important;
         /*transform: translateX(65px);*/
+    }
+
+    .burger {
+        /*margin: 0 !important;*/
+        position: absolute !important;
+        right: 30px !important;
+        top: 3vh !important;
     }
 
 }
