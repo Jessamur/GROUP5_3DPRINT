@@ -711,7 +711,7 @@ footer{
     grid-template-columns: 20vw 60vw 20vw !important;
 }
 
-@media only screen and (min-width: 0em) and (max-width: 30em/*47.9375em*/) {
+@media only screen and (min-width: 0em) and (max-width: 47.9375em) {
     /*
     .logo {
         position: absolute !important;
@@ -807,33 +807,6 @@ footer{
 
     nav {
         margin: auto 5vw;
-    }
-
-    .burger {
-        /*margin: 0 !important;*/
-        position: absolute;
-        right: 30px;
-        top: 3vh;
-    }
-
-    #mIcon {/*
-        height: 36.5px;*/
-    }
-
-    .logo {
-        /*position: absolute !important;
-        left: 0% !important;
-        */transform: scale(0.75) translateY(-5px) translateX(-14vw) !important;
-        z-index: 1;
-        margin-right: 0 !important;
-    }
-
-    #menuBtn{
-        position: absolute;
-        display: block;
-        z-index: 2;
-        left: 9vw;
-        /*transform: translateX(65px);*/
     }
 
 }
