@@ -762,6 +762,7 @@ footer{
         display: block;
         z-index: 2;
         left: 9vw !important;
+        top: 10px;
         /*transform: translateX(65px);*/
     }
 
@@ -769,7 +770,8 @@ footer{
         /*margin: 0 !important;*/
         position: absolute !important;
         right: 30px !important;
-        top: 3vh !important;
+        top: 1.5vh !important;
+        
     }
 
     #menuLinks{
@@ -794,6 +796,10 @@ footer{
         right: 0;
     }
     
+    ul.nav_heading.burger {/*
+        width: 67.86px !important;*/
+    }
+
 }
 
 @media only screen and (min-width: 0em) and (max-width: 345px/*47.9375em*/) {
